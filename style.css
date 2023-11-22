@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: white
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.page-1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 0 30px;
+}
+.page-2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    border-bottom: solid 3px wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navpart1{
+    font-size: 22px;
+    width: 10%;
+}
+.navpart2{
+
+height: 100%;
+width: 40%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 18px;
+}
+.navpart3{
+width: 10%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: large;
+
+
+}
+.container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.left{
+height: 100%;
+width: 50%;
+padding: 30px 50px;
+text-transform: uppercase;
+font-size: 35px;
+line-height: 130px;
+}
+.left span img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid wheat;
+    position: relative;
+    top:5px;
+}
+#img{
+    margin-left: -40px;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    padding: 60px 50px ;
+overflow: hidden;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+}
+.page-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.box{
+    height: 300px;
+    width: 400px;
+    border:solid wheat 3px ;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+.box h1{
+    font-size: 40px;
+}
